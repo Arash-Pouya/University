@@ -136,7 +136,9 @@ nav {
   color: black;
   text-decoration: none;
 }
-
+.carousel-item a:hover {
+  font-weight: bold;
+}
 /* .news
 ================================================== */
 .event {
@@ -160,7 +162,12 @@ nav {
   color: #000;
   text-decoration: none;
 }
-
+.event li {
+  margin-bottom: 10px;
+}
+.event li:hover {
+  font-weight: bold;
+}
 .more-link {
   margin-top: 10px;
   text-align: center;
@@ -168,92 +175,45 @@ nav {
 
 /* .centerPanel
 ================================================== */
-.centerPanel {
-  display: flex;
-  text-align: right;
-  padding: 5px;
-  background-color: #dedede;
-  list-style-type: none;
-}
-.centerPanel a {
-  color: #000;
-}
-.centerPanel p {
-  border-bottom: 1px solid black;
-}
-.CPimage {
-  width: 100%;
-  padding: 3px;
-  background-color: rgb(153, 0, 0);
-  font-weight: 700;
-  color: white;
-}
-.CPimage img {
-  height: 100%;
-  width: 100%;
+.image {
+  margin: 50px auto;
+  height: 400px;
+  background: url("/image/azaduniversity-north-tehran.jpg") fixed center no-repeat;
+  background-size: cover;
+  background-color: #002147;
 }
 
-/* .nav-tabs
-================================================== */
-.tabs {
-  margin-top: 10px;
-}
-.nav-tabs {
-  padding: 5px;
-  border-bottom: none;
-  background-color: #e2e2e2;
-  margin-bottom: 10px;
-  /* color: #000; */
-  box-shadow: 0 0 15px #adadad inset, 0px 0 5px #222;
-}
-.nav-tabs a {
-  color: #000;
-  /* background-color: red; */
-  padding: 5px;
-  margin-right: 3px;
-}
-.Nav-item {
-  border-right: 1px solid rgba(0, 0, 0, 0.178);
-  /* padding: 5px; */
-}
-.nav-tabs .Nav-link.active {
-  background-color: #777;
-  border-bottom: #e2e2e2;
-  font-weight: bold;
-  color: white;
-  box-shadow: 0 0 15px #575757 inset, 0px 0 5px #222 inset;
-}
-
-.tab-pane.active .tab-pane-header {
-  padding: 2rem;
-  background-color: #ffffff;
-  border-top-right-radius: 0.5rem;
-  border-top-left-radius: 0.5rem;
-  margin-bottom: 1rem;
+.more-links {
+  margin-top: 30px;
   text-align: center;
 }
-.tab-pane.active a {
+.more-links div {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 40px -33px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 40px -33px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 40px -33px rgba(0, 0, 0, 0.75);
+}
+.more-links div:hover {
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 40px -27px rgba(0, 33, 71, 0.746);
+  -moz-box-shadow: 0px 0px 40px -27px rgba(0, 33, 71, 0.746);
+  box-shadow: 0px 0px 40px -27px rgba(0, 33, 71, 0.746);
+}
+.more-links a {
   color: #000;
+  text-decoration: none;
 }
-.tab-pane.active a:hover {
-  color: rgb(117, 0, 0);
+.more-links li {
+  text-align: right;
+  list-style-type: none;
+  margin-right: 5px;
 }
-.tab-pane:first-child .tab-pane-header {
-  border-top-left-radius: 0;
+.more-links li:hover {
+  font-weight: bold;
 }
 
-/* .form-row
-================================================== */
-
-.form-row {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  margin: auto;
-}
-.form-check-label {
-  margin-right: 20px;
-}
 /* footer
 ================================================== */
 footer {
@@ -275,7 +235,9 @@ footer li {
   list-style-type: none;
   margin-left: 30px;
 }
-
+footer .widget li {
+  float: left;
+}
 footer .address .info,
 footer .address i {
   display: table-cell;
