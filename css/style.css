@@ -178,7 +178,7 @@ nav {
 .image {
   margin: 50px auto;
   height: 400px;
-  background: url("/image/azaduniversity-north-tehran.jpg") fixed center no-repeat;
+  background: url("../image/azaduniversity-north-tehran.jpg") fixed center no-repeat;
   background-size: cover;
   /* background-color: #002147; */
 }
