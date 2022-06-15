@@ -182,7 +182,7 @@ nav {
 .image {
   margin: 50px auto;
   height: 400px;
-  background: url("../image/azaduniversity-north-tehran.jpg") fixed center no-repeat;
+  background: url("/image/Capture.JPG") fixed center no-repeat;
   /* background-size: cover; */
   /* background-color: #002147; */
 }
@@ -256,4 +256,8 @@ footer .address i {
 }
 .ltr footer .address .info {
   padding-left: 5px;
+}
+.callpanel {
+  display: flex;
+  justify-content: center;
 }
