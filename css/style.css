@@ -180,7 +180,7 @@ nav {
 .image {
   margin: 50px auto;
   height: 400px;
-  background-image: url("/image/Capture.JPG");
+  background-image: url("../image/Capture.JPG");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
