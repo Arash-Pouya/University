@@ -32,7 +32,6 @@ nav {
 .item {
   display: grid;
   grid-template-columns: auto auto auto;
-  /* background-color: #2196f3; */
   text-align: center;
   padding: 10px;
 }
@@ -126,10 +125,8 @@ nav {
   right: 0;
   bottom: 0;
   width: 100%;
-  /* opacity: 0.6; */
   padding-top: 10px;
   padding-bottom: 15px;
-  /* background-color: #831312; */
   backdrop-filter: blur(20px);
   background-color: rgba(255, 255, 255, 0.301);
   color: black;
@@ -145,7 +142,6 @@ nav {
 ================================================== */
 .event {
   text-align: justify;
-  /* border: 1px solid red; */
   border-radius: 15px;
   padding: 20px;
   -webkit-box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.75);
@@ -184,8 +180,6 @@ nav {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  /* background-size: cover; */
-  /* background-color: #002147; */
 }
 
 .more-links {
